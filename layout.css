@@ -1,0 +1,49 @@
+.brand-logo{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #7395AE;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav{
+    background-color: #282828;
+}
+
+.page-footer{
+    background-color: #5D5C61;
+}
+
+.btn-submit{
+    background-color: #86C232;
+}  
+.btn-submit:visited{
+    background-color: #86C232 !important;
+ }
+ .btn-submit:hover {
+    background-color: #61892F !important;
+}
+.btn-submit:active{
+    background-color: #61892F !important;
+}
+
+.btn-delete{
+    background-color: #FC4445;
+}  
+.btn-delete:visited{
+    background-color: #FC4445 !important;
+ }
+.btn-delete:hover {
+    background-color: #C3073F !important;
+}
+.btn-delete:active{
+    background-color: #C3073F  !important;
+}
