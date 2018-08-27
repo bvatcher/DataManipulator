@@ -26,25 +26,17 @@
                     <div class="col s12">
                         <div id="main" class="card">
                             <div class="card-content">
-                                <span class="card-title">Data Upload</span>
                                 <div class="row">
-                                    <form id="task-form">
-                                    <div class="input-field col s12">
-                                            <input type="file" id="file" name="file" class="file-input" onchange="FileUpload()">
-                                    </div>
+                                    <input type="submit" onclick="location.href='index.html';" id="return" value="Return To Data Upload" class="btn btn-submit">
                                 </div>
-                                    <input type="submit" id="add-data" value="Add Data" class="btn btn-submit">
-                                    </form>
+                                <div class="row">
+                                    <h5 id="card-title" class="card-title"></h5>
+                                </div>
                             </div>
                             <div class="card-action">
-                                <h5 id="task-title">Data Sources</h5>
-                                <ul id="collection" class="collection">
-                                    <li id="no-data" class="collection-item">
-                                        No Data Yet!
-                                        <a href="#" class="delete-item secondary-content"></a>
-                                    </li> 
+                                <h4>Data Output</h4>
+                                <ul id="collection" class = "collection">
                                 </ul>
-                                <a id ="erase-data" class="erase-data btn btn-delete" href="">Erase All Data</a>
                             </div>
                         </div>
                     </div>
@@ -52,7 +44,7 @@
             </div>
             <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-            <script src="list.js"></script>
+            <script src="manipulator.js"></script>
         </body>
     </main>
 
