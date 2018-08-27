@@ -127,7 +127,6 @@ function palindromes(e){
     deleteRecords();
     if (contents !== "" && contents !== null){
         for (i=0; i < contents.length; i++){
-            alert(contents[i]);
             if (contents[i] !== ""){
                 if (isPalindrome(contents[i])){
                     var list = document.getElementById("collection");
@@ -145,7 +144,7 @@ function palindromes(e){
 function isPalindrome(word){
     var halfLength = Math.floor(word.length / 2);
     for (r=0; r < halfLength; r++){
-        if (word[r] !== word[word.legnth - (r-1)]){
+        if (JSON.stringify(word[r]) !== JSON.stringify(word[word.length - r - 1])){
             return false;
         }
     }
