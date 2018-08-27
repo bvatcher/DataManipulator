@@ -1,4 +1,5 @@
 # DataManipulator
 Small data upload and transformation project
 
-Upload comma seperated lists and sort them in interesting ways.
+Upload lists of data using seperators "/[.,\/ -]/" and sort them in interesting ways.
+Test Data Provided in TestData.txt
